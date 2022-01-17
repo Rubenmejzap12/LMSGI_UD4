@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="lista_libros.xsd">
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>de Cervantes</apellido1>
+                <apellido2>Ordoñez</apellido2>
+                <nombre>Miguel</nombre>    
+            </autor>
+        </autores>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <ISBN>4879874654</ISBN>
+        <editorial>Francisco de Robles</editorial>
+        <fecha_publicacion>1605</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>Cercas</apellido1>
+                <apellido2></apellido2>
+                <nombre>Javier</nombre>    
+            </autor>
+        </autores>
+        <titulo>Soldados de Salamina</titulo>
+        <ISBN>4587954874</ISBN>
+        <editorial>Alfaguara</editorial>
+        <fecha_publicacion>2001</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>Ruiz</apellido1>
+                <apellido2>Zafon</apellido2>
+                <nombre>Carlos</nombre>    
+            </autor>
+        </autores>
+        <titulo>La sombra del viento</titulo>
+        <ISBN>7845152489</ISBN>
+        <editorial>Anaya</editorial>
+        <fecha_publicacion>2001</fecha_publicacion> 
+    </libro>
+    <libro> 
+    <autores>
+        <autor>
+            <apellido1>San Pedro</apellido1>
+            <apellido2></apellido2>
+            <nombre>Jose Luis</nombre>    
+        </autor>
+    </autores>
+    <titulo>La sonrisa etrusca</titulo>
+    <ISBN>1245469836</ISBN>
+    <editorial>Alfaguara</editorial>
+    <fecha_publicacion>1985</fecha_publicacion> 
+    </libro>
+    <libro> 
+    <autores>
+        <autor>
+            <apellido1>De Rojas</apellido1>
+            <apellido2>Salcedo</apellido2>
+            <nombre>Fernando</nombre>    
+        </autor>
+    </autores>
+    <titulo>La Celestina</titulo>
+    <ISBN>1548965478</ISBN>
+    <editorial>Burgos</editorial>
+    <fecha_publicacion>1499 </fecha_publicacion>
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>de Cervantes</apellido1>
+                <apellido2></apellido2>
+                <nombre>Miguel</nombre>    
+            </autor>
+        </autores>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <ISBN>4879874654</ISBN>
+        <editorial>Francisco de Robles</editorial>
+        <fecha_publicacion>1605</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>Cercas</apellido1>
+                <apellido2>Ordoñez</apellido2>
+                <nombre>Javier</nombre>    
+            </autor>
+        </autores>
+        <titulo>Soldados de Salamina</titulo>
+        <ISBN>4587954874</ISBN>
+        <editorial>Alfaguara</editorial>
+        <fecha_publicacion>2001</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>Ruiz</apellido1>
+                <apellido2>Zafon</apellido2>
+                <nombre>Carlos</nombre>    
+            </autor>
+        </autores>
+        <titulo>La sombra del viento</titulo>
+        <ISBN>7845152489</ISBN>
+        <editorial>Anaya</editorial>
+        <fecha_publicacion>2001</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>San Pedro</apellido1>
+                <apellido2>Morante</apellido2>
+                <nombre>Jose Luis</nombre>    
+            </autor>
+        </autores>
+        <titulo>La sonrisa etrusca</titulo>
+        <ISBN>1245469836</ISBN>
+        <editorial>Alfaguara</editorial>
+        <fecha_publicacion>1985</fecha_publicacion> 
+    </libro>
+    <libro> 
+        <autores>
+            <autor>
+                <apellido1>De Rojas</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Fernando</nombre>    
+            </autor>
+        </autores>
+        <titulo>La Celestina</titulo>
+        <ISBN>1548965478</ISBN>
+        <editorial>Burgos</editorial>
+        <fecha_publicacion>1499 </fecha_publicacion> 
+    </libro>
+</libros>
