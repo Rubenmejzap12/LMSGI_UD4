@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="contactos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="contacto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contacto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="telefono"/>
+        <xs:element ref="fechaguardado"/>
+        <xs:element ref="horaConexion"/>
+        <xs:element ref="ultimoMensaje"/>
+        <xs:element ref="estado"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="telefono" type="xs:integer"/>
+  <xs:element name="fechaguardado" type="xs:string"/>
+  <xs:element name="horaConexion" type="xs:NMTOKEN"/>
+  <xs:element name="ultimoMensaje" type="xs:string"/>
+  <xs:element name="estado" type="xs:string"/>
+</xs:schema>

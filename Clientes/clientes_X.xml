@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <sede codigo="C15896325">
+        <direccion>c/ Asuncion</direccion>
+        <empleado> Juan Ignacion Martinez Jaime </empleado>
+        <fecha_Alta>2019-05-01</fecha_Alta>
+        <descripcion>Trabajador</descripcion>
+        <cliente codigo="G45896324">
+            <numViviendas>4</numViviendas>
+            <costeVivienda>175.000</costeVivienda>
+            <resumenViviendas>Embargada</resumenViviendas>
+            <plazoAlta>2019-10-05</plazoAlta>
+        </cliente>
+        <cliente codigo="J56957546">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>110.000</costeVivienda>
+            <resumenViviendas>Terminada</resumenViviendas>
+            <plazoAlta>2020-05-15</plazoAlta>
+        </cliente>
+    </sede>
+    <sede codigo="L74185236">
+        <direccion>C/ Canalejas</direccion>
+        <empleado>Antonio Linares Cuenca</empleado>
+        <fecha_Alta>2017-02-15</fecha_Alta>
+        <descripcion>Trabajador</descripcion>
+        <cliente codigo="F85296378">
+            <numViviendas>4</numViviendas>
+            <costeVivienda>123.000</costeVivienda>
+            <resumenViviendas>En Reforma</resumenViviendas>
+            <plazoAlta>2019-05-12</plazoAlta>
+        </cliente>
+        <cliente codigo="L54897412">
+            <numViviendas>2</numViviendas>
+            <costeVivienda>190.000</costeVivienda>
+            <resumenViviendas>Perfecto Estado</resumenViviendas>
+            <plazoAlta>2020-06-25</plazoAlta>
+        </cliente>
+    </sede>
+</clientes>

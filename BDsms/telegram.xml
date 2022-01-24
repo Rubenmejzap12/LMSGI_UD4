@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE contactos SYSTEM "telegram.dtd">
+<contactos>
+    <contacto>
+        <nombre> Luis </nombre>
+        <telefono> 659654896 </telefono>
+        <fechaguardado> 1/7/2015 </fechaguardado>
+        <horaConexion> 23:55 </horaConexion>
+        <ultimoMensaje> Hasta luego </ultimoMensaje>
+        <estado> Disponible </estado>
+    </contacto>
+    <contacto>
+        <nombre> Ana </nombre>
+        <telefono> 659654896 </telefono>
+        <fechaguardado> 12/4/2010 </fechaguardado>
+        <horaConexion> 12:50 </horaConexion>
+        <ultimoMensaje> Hola </ultimoMensaje>
+        <estado> Trabajando </estado>
+    </contacto>
+    <contacto>
+        <nombre> Enrique </nombre>
+        <telefono> 758514896 </telefono>
+        <fechaguardado> 2/2/2018 </fechaguardado>
+        <horaConexion> 13:52 </horaConexion>
+        <ultimoMensaje> De acuerdo </ultimoMensaje>
+        <estado> No Disponible </estado>
+    </contacto>
+    <contacto>
+        <nombre> Antonio </nombre>
+        <telefono> 658654896 </telefono>
+        <fechaguardado> 12/5/2009 </fechaguardado>
+        <horaConexion> 18:32 </horaConexion>
+        <ultimoMensaje> Voy a buscarte </ultimoMensaje>
+        <estado> Disponible </estado>
+    </contacto>
+    <contacto>
+        <nombre> Juan Manuel </nombre>
+        <telefono> 689321456 </telefono>
+        <fechaguardado> 19/7/2020 </fechaguardado>
+        <horaConexion> 16:16 </horaConexion>
+        <ultimoMensaje> Lo siento, no her podido asistir </ultimoMensaje>
+        <estado> En el trabajo </estado>
+    </contacto>
+</contactos>

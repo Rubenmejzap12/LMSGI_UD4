@@ -1,0 +1,18 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT contactos (contacto)+>
+        <!ATTLIST contactos xmlns CDATA #FIXED ''>
+<!ELEMENT contacto (nombre,telefono,fechaguardado,horaConexion,ultimoMensaje, estado)>
+    <!ATTLIST contacto xmlns CDATA #FIXED ''>
+<!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre xmlns CDATA #FIXED ''>
+<!ELEMENT telefono (#PCDATA)>
+    <!ATTLIST telefono xmlns CDATA #FIXED ''>
+<!ELEMENT fechaguardado (#PCDATA)>
+    <!ATTLIST fechaguardado xmlns CDATA #FIXED ''>
+<!ELEMENT horaConexion (#PCDATA)>
+    <!ATTLIST horaConexion xmlns CDATA #FIXED ''>
+<!ELEMENT ultimoMensaje (#PCDATA)>
+    <!ATTLIST ultimoMensaje xmlns CDATA #FIXED ''>
+<!ELEMENT estado (#PCDATA)>
+    <!ATTLIST estado xmlns CDATA #FIXED ''>
