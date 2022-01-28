@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:annotation>
+  <xs:documentation xml:lang="Es-es">
+      Esquema ejemplo real Clientes
+      <fecha>2022-01-25</fecha>
+      <autor>Ruben Mejías Zapata</autor>
+  </xs:documentation>
+</xs:annotation>
   <xs:element name="clientes">
     <xs:complexType>
       <xs:sequence>
