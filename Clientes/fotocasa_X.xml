@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Listado de clientes -->
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="fotocasa.xsd">
+    <cliente ID="C001">
+        <nombre>Industrias Sas.</nombre>
+        <dni>2569874W</dni>
+        <telefono>958739673</telefono>
+        <direccion>C/ Morales 12</direccion>
+        <comentarios>
+            Cliente con muy buena presencia y con ganas de comprar
+        </comentarios>
+    </cliente>
+    <cliente ID="C002">
+        <nombre>Inmobiliaria S.A.</nombre>
+        <dni>25458874W</dni>
+        <telefono>8527419</telefono>
+        <direccion>C/ Antojos 6</direccion>
+        <comentarios>
+            cliente con muchas dudas y regateos en el precio
+        </comentarios>
+    </cliente>
+    <cliente ID="C003">
+        <nombre>Las Maromas S.A.</nombre>
+        <dni>2569874Y</dni>
+        <telefono>956256369</telefono>
+        <direccion>C/ Canalejas 6</direccion>
+        <comentarios>
+            cliente no muy fiable
+        </comentarios>
+    </cliente>
+    <cliente ID="C004">
+        <nombre>Fernandez S.A.</nombre>
+        <dni>5896547R</dni>
+        <telefono>985698741</telefono>
+        <direccion>C/ Juan Carlos I 25</direccion>
+        <comentarios>
+            cliente que ha comprado 2 casa con nosotros
+        </comentarios>
+    </cliente>
+</clientes>

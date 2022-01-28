@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "Elmotorista.dtd">
+<concesionario>
+    <moto>
+        <codigo>1</codigo>
+        <marca>Yamaha</marca>
+        <modelo>R1</modelo>
+        <matricula>1020LKD</matricula>
+        <potencia>120</potencia>
+        <tipomoto>Carretera</tipomoto>
+    </moto>
+    <moto>
+        <codigo>2</codigo>
+        <marca>KTM</marca>
+        <modelo>530</modelo>
+        <matricula>4928lDV</matricula>
+        <potencia>50</potencia>
+        <tipomoto>Cross</tipomoto>
+    </moto>
+    <moto>
+        <codigo>3</codigo>
+        <marca>Kawasaki</marca>
+        <modelo>Ninja</modelo>
+        <matricula>4896KHG</matricula>
+        <potencia>100</potencia>
+        <tipomoto>carretera</tipomoto>
+    </moto>
+    <moto>
+        <codigo>4</codigo>
+        <marca>YAMAHA</marca>
+        <modelo>TMAX</modelo>
+        <matricula>4928LDU</matricula>
+        <potencia>60</potencia>
+        <tipomoto>Bespa</tipomoto>
+    </moto>
+    <moto>
+        <codigo>5</codigo>
+        <marca>Honda</marca>
+        <modelo>CBR</modelo>
+        <matricula>4589LHJ</matricula>
+        <potencia>100</potencia>
+        <tipomoto>Carretera</tipomoto>
+    </moto>
+</concesionario>

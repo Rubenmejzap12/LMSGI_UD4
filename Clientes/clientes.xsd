@@ -3,6 +3,9 @@
     version="0.1" xml:lang="es">
     <xs:annotation>
         <xs:documentation xml:lang="Es-es">
+            Esquema para el alta de clientes sede central
+            <fecha>2022-01-25</fecha>
+            <autor>Ruben Mejías Zapata</autor>
         </xs:documentation>
     </xs:annotation>
 	<xs:element name="clientes">

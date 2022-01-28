@@ -2,7 +2,6 @@
 <!DOCTYPE concesionario SYSTEM "concesionario.dtd">
 <concesionario>
     <coche>
-        
         <codigo>1</codigo>
         <marca>AUDI</marca>
         <modelo>A3</modelo>

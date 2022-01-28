@@ -1,0 +1,25 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT concesionario (moto)+>
+    <!ATTLIST concesionario xmlns CDATA #FIXED ''>
+
+<!ELEMENT moto (codigo,marca,modelo,matricula,potencia,tipomoto)>
+    <!ATTLIST moto xmlns CDATA #FIXED ''>
+
+<!ELEMENT codigo (#PCDATA)>
+    <!ATTLIST codigo xmlns CDATA #FIXED ''>
+
+<!ELEMENT marca (#PCDATA)>
+    <!ATTLIST marca xmlns CDATA #FIXED ''>
+
+<!ELEMENT modelo (#PCDATA)>
+    <!ATTLIST modelo xmlns CDATA #FIXED ''>
+
+<!ELEMENT matricula (#PCDATA)>
+    <!ATTLIST matricula xmlns CDATA #FIXED ''>
+
+<!ELEMENT potencia (#PCDATA)>
+    <!ATTLIST potencia xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipomoto (#PCDATA)>
+    <!ATTLIST tipomoto xmlns CDATA #FIXED ''>

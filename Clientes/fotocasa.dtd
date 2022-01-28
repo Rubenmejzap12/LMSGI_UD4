@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT clientes (cliente)+>
+  <!ATTLIST clientes xmlns CDATA #FIXED ''>
+
+<!ELEMENT cliente (nombre,dni,telefono,direccion,comentarios)>
+  <!ATTLIST cliente xmlns CDATA #FIXED '' ID NMTOKEN #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+  <!ATTLIST nombre xmlns CDATA #FIXED ''>
+
+<!ELEMENT dni (#PCDATA)>
+  <!ATTLIST dni xmlns CDATA #FIXED ''>
+
+<!ELEMENT telefono (#PCDATA)>
+  <!ATTLIST telefono xmlns CDATA #FIXED ''>
+
+<!ELEMENT direccion (#PCDATA)>
+  <!ATTLIST direccion xmlns CDATA #FIXED ''>
+
+<!ELEMENT comentarios (#PCDATA)>
+  <!ATTLIST comentarios xmlns CDATA #FIXED ''>

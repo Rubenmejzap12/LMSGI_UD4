@@ -1,0 +1,40 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT libros (libro)+>
+    <!ATTLIST libros xmlns CDATA #FIXED ''>
+
+<!ELEMENT libro (autores,titulo,ISBN,editorial,fecha_publicacion,precio, precioaudiolibro)>
+    <!ATTLIST libro xmlns CDATA #FIXED ''>
+
+<!ELEMENT autores (autor)>
+    <!ATTLIST autores xmlns CDATA #FIXED ''>
+
+<!ELEMENT titulo (#PCDATA)>
+    <!ATTLIST titulo xmlns CDATA #FIXED ''>
+
+<!ELEMENT ISBN (#PCDATA)>
+    <!ATTLIST ISBN xmlns CDATA #FIXED ''>
+
+<!ELEMENT editorial (#PCDATA)>
+    <!ATTLIST editorial xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha_publicacion (#PCDATA)>
+    <!ATTLIST fecha_publicacion xmlns CDATA #FIXED ''>
+
+<!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio xmlns CDATA #FIXED ''>
+
+<!ELEMENT precioaudiolibro (#PCDATA)>
+    <!ATTLIST precioaudiolibro xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (apellido1,apellido2,nombre)>
+    <!ATTLIST autor xmlns CDATA #FIXED ''>
+
+<!ELEMENT apellido1 (#PCDATA)>
+    <!ATTLIST apellido1 xmlns CDATA #FIXED ''>
+
+<!ELEMENT apellido2 (#PCDATA)>
+    <!ATTLIST apellido2 xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre xmlns CDATA #FIXED ''>
