@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT modulos (asignatura)+>
+    <!ATTLIST modulos xmlns CDATA #FIXED ''>
+
+<!ELEMENT asignatura (nombre,Contenidos,UnidadDidactica)>
+    <!ATTLIST asignatura xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre xmlns CDATA #FIXED ''>
+
+<!ELEMENT Contenidos (#PCDATA)>
+    <!ATTLIST Contenidos xmlns CDATA #FIXED ''>
+
+<!ELEMENT UnidadDidactica (tipo,descripcion)>
+    <!ATTLIST UnidadDidactica xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo (#PCDATA)>
+    <!ATTLIST tipo xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+    <!ATTLIST descripcion xmlns CDATA #FIXED ''>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE practicas SYSTEM "practicas.dtd">
+<practicas>
+	<alumno>
+		<nif>256987141K</nif>
+		<resultado>Apto</resultado>
+		<observaciones>Alumno con grandes notas y muy agradable</observaciones>
+		<ip>156.168.1.1</ip> 
+	</alumno>
+	<alumno>
+		<nif>25987454G</nif>
+		<resultado>No Apto</resultado>
+		<mac>45:FA:46:CA:45:13</mac>
+	</alumno>
+    <alumno>
+		<nif>52658987J</nif>
+		<resultado>Apto</resultado>
+		<mac>45:FA:46:CA:45:13</mac>
+	</alumno>
+    <alumno>
+		<nif>53256987F</nif>
+		<resultado>No Apto</resultado>
+        <observaciones>Alumno que no se esfuerza</observaciones>
+		<ip>152.189.1.1</ip>
+	</alumno>
+</practicas>

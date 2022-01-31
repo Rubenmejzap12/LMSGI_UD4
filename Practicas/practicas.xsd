@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<xs:annotation>
+  <xs:documentation xml:lang="Es-es">
+      Esquema practicas
+      <fecha>2022-01-31</fecha>
+      <autor>Ruben Mejías Zapata</autor>
+  </xs:documentation>
+</xs:annotation>
+    <xs:element name="practicas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumno" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nif">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9]{8}[A-Z]{1}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="resultado">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Apto"/>
+                                        <xs:enumeration value="No Apto"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="observaciones" maxOccurs="1" minOccurs="0">
+                                <xs:complexType mixed="true">
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:choice>
+                                <xs:element name="ip" type="xs:string" />
+                                <xs:element name="mac" type="xs:string" />
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

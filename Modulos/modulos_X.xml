@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modulos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulos.xsd">
+	<asignatura>
+		<nombre>Lenguaje de Marcas</nombre>
+        <Contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5, Tema 6, Tema 7</Contenidos>
+		<UnidadDidactica>
+            <tipo>4</tipo>
+            <descripcion>Consta de ficheros xml, dtd y xsd</descripcion>
+        </UnidadDidactica>	 
+	</asignatura>
+	<asignatura>
+		<nombre>Base de datos</nombre>
+        <Contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5, Tema 6, Tema 7</Contenidos>
+        <UnidadDidactica>
+            <tipo>5</tipo>
+            <descripcion>Transformacion de esquema relacional</descripcion>
+        </UnidadDidactica>
+	</asignatura>
+    <asignatura>
+		<nombre>Programacion</nombre>
+        <Contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5, Tema 6, Tema 7</Contenidos>
+        <UnidadDidactica>
+            <tipo>4</tipo>
+            <descripcion>Creacion de juego en JavaFX</descripcion>
+        </UnidadDidactica>
+	</asignatura>
+    <asignatura>
+		<nombre>Sistemas informaticos</nombre>
+        <Contenidos>Tema 1, Tema 2, Tema 3, Tema 4, Tema 5, Tema 6, Tema 7</Contenidos>
+        <UnidadDidactica>
+            <tipo>5</tipo>
+            <descripcion>Resolucion de juego Tordle mediante consola</descripcion>
+        </UnidadDidactica>
+	</asignatura>
+</modulos>
