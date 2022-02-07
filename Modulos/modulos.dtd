@@ -1,16 +1,16 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT modulos (asignatura)+>
+<!ELEMENT modulos (contenidos|nombre)+>
     <!ATTLIST modulos xmlns CDATA #FIXED ''>
 
-<!ELEMENT asignatura (nombre,Contenidos,UnidadDidactica)>
-    <!ATTLIST asignatura xmlns CDATA #FIXED ''>
+<!ELEMENT contenidos (bloque)>
+    <!ATTLIST contenidos xmlns CDATA #FIXED ''>
 
 <!ELEMENT nombre (#PCDATA)>
     <!ATTLIST nombre xmlns CDATA #FIXED ''>
 
-<!ELEMENT Contenidos (#PCDATA)>
-    <!ATTLIST Contenidos xmlns CDATA #FIXED ''>
+<!ELEMENT bloque (UnidadDidactica)>
+    <!ATTLIST bloque xmlns CDATA #FIXED ''>
 
 <!ELEMENT UnidadDidactica (tipo,descripcion)>
     <!ATTLIST UnidadDidactica xmlns CDATA #FIXED ''>

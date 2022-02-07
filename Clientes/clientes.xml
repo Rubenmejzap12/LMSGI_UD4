@@ -6,13 +6,13 @@
         <empleado> Juan Ignacion Martinez Jaime </empleado>
         <fecha_Alta>5-12-2018</fecha_Alta>
         <descripcion>Trabajador</descripcion>
-        <cliente codigo="G45896321">
+        <cliente codigo="GFR321">
             <numViviendas>4</numViviendas>
             <costeVivienda>175.000</costeVivienda>
             <resumenViviendas>Embargada</resumenViviendas>
             <plazoAlta>5-06-2019</plazoAlta>
         </cliente>
-        <cliente codigo="J25896314">
+        <cliente codigo="JTG314">
             <numViviendas>1</numViviendas>
             <costeVivienda>110.000</costeVivienda>
             <resumenViviendas>Terminada</resumenViviendas>
@@ -24,13 +24,13 @@
         <empleado>Antonio Linares Cuenca</empleado>
         <fecha_Alta>15-02-2017</fecha_Alta>
         <descripcion>No Trabajor</descripcion>
-        <cliente codigo="F85296378">
+        <cliente codigo="FFG458">
             <numViviendas>4</numViviendas>
             <costeVivienda>123.000</costeVivienda>
             <resumenViviendas>En Reforma</resumenViviendas>
             <plazoAlta>15-5-2019</plazoAlta>
         </cliente>
-        <cliente codigo="L54897412">
+        <cliente codigo="LJU452">
             <numViviendas>2</numViviendas>
             <costeVivienda>190.000</costeVivienda>
             <resumenViviendas>Perfecto Estado</resumenViviendas>

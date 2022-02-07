@@ -1,32 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:annotation>
-  <xs:documentation xml:lang="Es-es">
-      Esquema practicas
-      <fecha>2022-01-31</fecha>
-      <autor>Ruben Mejías Zapata</autor>
-  </xs:documentation>
-</xs:annotation>  
-<xs:element name="modulos">
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="modulos">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="contenidos"/>
+        <xs:element ref="nombre"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contenidos">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" name="asignatura">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="nombre" type="xs:string" />
-              <xs:element name="Contenidos" type="xs:string" />
-              <xs:element name="UnidadDidactica">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="tipo" type="xs:unsignedByte" />
-                    <xs:element name="descripcion" type="xs:string" />
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
+        <xs:element ref="bloque"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="bloque">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="UnidadDidactica"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UnidadDidactica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tipo"/>
+        <xs:element ref="descripcion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="tipo" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+  <xs:element name="nombre" type="xs:string"/>
 </xs:schema>
