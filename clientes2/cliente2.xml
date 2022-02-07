@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "clientes2.dtd">
+<clientes>
+    <sede codigo="C15896325">
+        <direccion>c/ Asuncion</direccion>
+        <empleado> Juan Ignacion Martinez Jaime </empleado>
+        <fecha_Alta>5-12-2018</fecha_Alta>
+        <descripcion>Trabajador</descripcion>
+        <cliente codigo="GFR-321">
+                <numViviendas>4</numViviendas>
+                <vivienda ID="001">    
+                    <costeVivienda>175.000</costeVivienda>
+                    <resumenViviendas>Embargada</resumenViviendas>
+                    <plazoAlta>5-06-2019</plazoAlta>
+                </vivienda>
+                <vivienda ID="002">    
+                    <costeVivienda>120.000</costeVivienda>
+                    <resumenViviendas>En Construccion</resumenViviendas>
+                    <plazoAlta>5-08-2021</plazoAlta>
+                </vivienda>
+        </cliente>
+        <cliente codigo="JTG-314">
+            <numViviendas>2</numViviendas>
+            <vivienda ID="001"> 
+                <costeVivienda>110.000</costeVivienda>
+                <resumenViviendas>Terminada</resumenViviendas>
+                <plazoAlta>5-5-2020</plazoAlta>
+            </vivienda>
+            <vivienda ID="002"> 
+                <costeVivienda>90.000</costeVivienda>
+                <resumenViviendas>En construccion</resumenViviendas>
+                <plazoAlta>12-09-2019</plazoAlta>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="C4896587">
+        <direccion>c/ Correria</direccion>
+        <empleado> Antonio Mejide Ramirez </empleado>
+        <fecha_Alta>15-06-2016</fecha_Alta>
+        <descripcion>En paro</descripcion>
+        <cliente codigo="HDE-547">
+                <numViviendas>3</numViviendas>
+                <vivienda ID="001">    
+                    <costeVivienda>155.000</costeVivienda>
+                    <resumenViviendas>Embargada</resumenViviendas>
+                    <plazoAlta>18-06-2021</plazoAlta>
+                </vivienda>
+                <vivienda ID="002">    
+                    <costeVivienda>190.000</costeVivienda>
+                    <resumenViviendas>En Construccion</resumenViviendas>
+                    <plazoAlta>5-01-2022</plazoAlta>
+                </vivienda>
+        </cliente>
+        <cliente codigo="HDE-548">
+            <numViviendas>6</numViviendas>
+            <vivienda ID="001"> 
+                <costeVivienda>130.000</costeVivienda>
+                <resumenViviendas>Terminada</resumenViviendas>
+                <plazoAlta>12-10-2018</plazoAlta>
+            </vivienda>
+            <vivienda ID="002"> 
+                <costeVivienda>75.000</costeVivienda>
+                <resumenViviendas>Terminada</resumenViviendas>
+                <plazoAlta>20-12-2015</plazoAlta>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>
