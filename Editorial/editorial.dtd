@@ -1,0 +1,42 @@
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT editorial (cabecera|tabla)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cabecera (titulo|informe|descripcion|fechaInforme)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT titulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT informe (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT descripcion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fechaInforme (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tabla (region|trimestre|libros_vendidos)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT region (norte|centro|sur)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT norte (#PCDATA|trimestre|libros)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT trimestre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT libros (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT centro (#PCDATA|trimestre|libros)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sur (#PCDATA|trimestre|libros)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT libros_vendidos (#PCDATA)>
